@@ -6,9 +6,9 @@ on:
   schedule:
     - cron: "*/3 * * *"  # (Optional) Re-run every 3hrs
 
-concurrency:
-  group:"discord-bot"
-  "cancel-in-progress": true
+#concurrency:
+#  group:"discord-bot"
+#  "cancel-in-progress": true
 
 jobs:
   run-bot:
