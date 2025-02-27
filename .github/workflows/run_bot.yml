@@ -8,7 +8,7 @@ on:
 
 concurrency:
   group:"discord-bot"
-  "cancel-in-progress": true
+  cancel-in-progress: true
 
 jobs:
   run-bot:
