@@ -4,7 +4,7 @@ name: Run Discord Bot
 on:
   workflow_dispatch:
   schedule:
-    - cron: "*/3 * * *"  # (Optional) Re-run every 3hrs
+    - cron: "0 */3 * * *"  # (Optional) Re-run every 3hrs
 
 #concurrency:
 #  group:"discord-bot"
