@@ -1,10 +1,10 @@
-name: Run Discord Bot
+#name: Run Discord Bot
 
-# You can trigger this workflow manually or on a schedule
-on:
-  workflow_dispatch:
-  schedule:
-    - cron: "0 0,5,10,15,20 * * *"  # (Optional) Re-run every 3hrs
+# You can trigger this workflow manually or on a #schedule
+#on:
+#  workflow_dispatch:
+#  schedule:
+#    - cron: "0 0,5,10,15,20 * * *"  # (Optional) Re-run every 3hrs
 
 #concurrency:
 #  group:"discord-bot"
